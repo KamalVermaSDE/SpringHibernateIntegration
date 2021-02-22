@@ -1,4 +1,4 @@
-package org.springMVC.restFull.bean;
+package org.SpringMVC.RestFull.Model;
 
 public class Employee{
 	
@@ -21,11 +21,11 @@ public class Employee{
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getemployeeName() {
+	public String getEmployeeName() {
 		return employeeName;
 	}
-	public void setCountryName(String employeeName) {
-		this.employeeName = employeeName;
+	public void setEmployeeName(String countryName) {
+		this.employeeName = countryName;
 	}
 	public String getCity() {
 		return city;
